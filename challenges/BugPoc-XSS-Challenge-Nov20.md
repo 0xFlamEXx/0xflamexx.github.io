@@ -8,7 +8,7 @@ Rules
 4. You must provide a working proof-of-concept on bugpoc.com
 ```
 ## Introduction
-This blog post will describe how I solved the XSS challenge by BugPoc. As always when enumerating webpages, we should use an interception proxy to  keep track of all the requests. I will use `Burp Suite` to intercept requests and the `FoxyProxy` plugin to configure the browser's proxy settings. As written in the rules, we need to use the actual version of the `Chrome Browser`.
+This blog post will describe how I solved the XSS challenge by BugPoc. As always when enumerating webpages, we should use an interception proxy to  keep track of all the requests. I will use `Burp Suite` to intercept requests and the `FoxyProxy` plugin to configure the browser's proxy settings. As written in the rules, we need to use the current version of the `Chrome Browser`.
 
 ## Enumeration
 The target is `https://wacky.buggywebsite.com`, which looks like this.
