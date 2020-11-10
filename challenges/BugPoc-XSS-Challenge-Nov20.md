@@ -144,7 +144,7 @@ if (window.name == 'iframe') {
     </video>`
 }
 ```	
-I already have code execution, so why not changing the value of `window.name` before visiting the website? It will stay the same when changing to a different website.
+So why not changing the value of `window.name` before visiting the website? It will stay the same when changing to a different website.
 ```
 window.name = "iframe";
 ```
